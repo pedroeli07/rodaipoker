@@ -34,13 +34,19 @@
 }
 
 .violet-gradient {
-  background: #804dee;
-  background: linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
+  background: #6E56E3;
+  background: linear-gradient(-90deg, #6E56E3 0%, rgba(60, 51, 80, 0) 100%);
   background: -webkit-linear-gradient(
     -90deg,
-    #804dee 0%,
+    #6E56E3 0%,
     rgba(60, 51, 80, 0) 100%
   );
+}
+
+.rodai-gradient {
+  background: #6E56E3;
+  background: linear-gradient(90deg, #6E56E3 0%, #9061FF 100%);
+  background: -webkit-linear-gradient(90deg, #6E56E3 0%, #9061FF 100%);
 }
 
 .green-pink-gradient {
