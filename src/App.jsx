@@ -9,12 +9,14 @@ const App = () => {
         {/* Navbar */}
         <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
           <Navbar />
-        </div>
-
-        {/* Hero Section with its own 3D context */}
+            {/* Hero Section with its own 3D context */}
         <div className='relative z-0'>
           <Hero />
+            <StarsCanvas />
         </div>
+        </div>
+
+      
 
         {/* Main Content with shared StarsCanvas */}
         <div className='relative z-0'>
